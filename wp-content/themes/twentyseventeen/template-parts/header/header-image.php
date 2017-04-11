@@ -11,10 +11,10 @@
 ?>
 <div class="custom-header">
 
-	<div class="custom-header-media">
-		<?php the_custom_header_markup(); ?>
-	</div>
+    <h1><?php echo get_theme_mod('control_test'); ?></h1>
 
-	<?php get_template_part( 'template-parts/header/site', 'branding' ); ?>
+	<div class="custom-header-media">
+
+	</div>
 
 </div><!-- .custom-header -->
